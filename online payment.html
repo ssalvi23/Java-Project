@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script>
+         function functionAlert(msg, myYes) {
+            var confirmBox = $("#confirm");
+            confirmBox.find(".message").text(msg);
+            confirmBox.find(".yes").unbind().click(function() {
+               confirmBox.hide();
+            });
+            confirmBox.find(".yes").click(myYes);
+            confirmBox.show();
+         }
+      </script>
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+background-color: #BDD6E6;
+}
+
+
+input[type=text] {
+  width: 300px;
+  height: 27px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+    position: relative;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 345px;
+  
+
+  left: 467px;
+
+    top:0px;
+    padding-left: 20px;
+    padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+#cno{
+position: relative;
+
+width: 209px;
+    left: 102px;
+    top: -10;
+    bottom: 32px;
+
+
+    bottom: 0px;
+    left: 8px;
+
+}
+
+#ed{
+    position: relative;
+    
+    
+    left: 21px;
+    width: 163px;
+
+
+}
+
+#cvv{
+    position: relative;
+    
+    left: 68px;
+    width: 164px;
+    border-left-width: 0px;
+    height: 27px;
+
+
+}
+
+#fname{
+    position: relative;
+     width: 200px;
+    height: 27px;
+
+    left: 56px;
+    width: 209px;
+
+
+}
+
+
+
+ #confirm {
+            display: none;
+            background-color: #F3F5F6;
+            color: #000000;
+            border: 1px solid #aaa;
+            position:absolute;
+            width: 300px;
+            height: 100px;
+            left: 23px;
+            top:200px;
+            box-sizing: border-box;
+            text-align: center;
+         }
+         .yes {
+			 background-color: #FFFFFF;
+            display: inline-block;
+            border-radius: 12px;
+            border: 4px solid #aaa;
+            padding: 5px;
+            text-align: center;
+            width: 60px;
+            cursor: pointer;
+			color:black;
+
+         }
+		 .yes:hover {
+  background-color:  #F4F0F0 ;
+}
+
+         #confirm .message {
+            text-align: center;
+         }
+
+
+.sub{
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sub:hover {
+  background-color: #45a049;
+}
+</style>
+</head>
+<body>
+
+
+    
+  <form action="/action_page.php">
+    <div class="main">
+
+    <div class="container">
+        <center><h3>Credit Card</h3></center>
+            <label for="subject" style="font-size:15px;">Card Number</label>
+            <input type="text" id="cno" name="firstname" placeholder="Enter Card Number..">
+            <br>
+
+            <label for="subject" style="font-size:15px;"> Expiry Date</label>
+
+    <input type="date" id="ed" name="firstname" placeholder="Enter expiry date..">
+<br><br>
+<label for="subject" style="font-size:15px;"> CVV</label>
+
+    <input type="text" id="cvv" name="lastname" placeholder="Enter CVV..">
+<br>
+<label for="subject" style="font-size:15px;">Name</label>
+
+<input type="text" id="fname" name="firstname" placeholder="Name on card..">
+<center>
+
+   
+	<div id="confirm">
+<br>
+         <div class="message">Your order has placed successfully....</div><br>
+       <!--  <button class="yes">OK</button>-->
+		 <div class="yes">    
+        <a href="home page.html"> OK</a> 
+		
+</div>
+		 
+      </div>
+      <input type="button" class="sub" value="SUBMIT" onclick="functionAlert();" />
+
+</div>
+</form>
+
+</body>
+</html>

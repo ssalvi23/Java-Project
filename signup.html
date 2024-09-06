@@ -1,0 +1,187 @@
+
+<html>
+<head>
+<link rel="stylesheet" href="G:\Akshata\css micro-project\signup.css" >
+<script type="text/javascript">
+function signup()
+{
+var a = document.forms["myForm"]["name"].value;
+var b = document.forms["myForm"]["email"].value;
+  var c = document.forms["myForm"]["phoneno"].value;
+var d = document.forms["myForm"]["psw"].value;
+var e = document.forms["myForm"]["rpsw"].value;
+
+if(a=="" && b=="" && c=="" && d=="" && e=="")
+{
+alert("Please enter the details!!");
+}
+else
+{
+alert("Signup successful!!")
+}
+}
+
+<!--name validation-->
+function namevalidation()
+{ 
+with(document.forms.myForm)
+var uname= myForm.name.value;
+var letters = /^[A-Za-z]+$/;
+if(letters.test(uname))
+{
+document.getElementById("valid").innerHTML="**valid name**";
+}
+else
+{
+document.getElementById("invalid").innerHTML="**In-valid name**";
+
+}
+}
+
+<!--email validation-->
+function emailvalidation()
+{ 
+with(document.forms.myForm)
+var ename= myForm.email.value;
+var letters = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+if(letters.test(ename))
+{
+document.getElementById("e1").innerHTML="**valid email-id**";
+}
+else
+{
+document.getElementById("e2").innerHTML="**In-valid email-id**";
+}
+}
+
+<!--username validation-->
+function idvalidation()
+{ 
+with(document.forms.myForm)
+var uid= myForm.username.value;
+var letters = /^[a-zA-Z0-9 .]{5,8}$/;
+if(letters.test(uid))
+{
+document.getElementById("id1").innerHTML="**valid username**";
+}
+else
+{
+document.getElementById("id2").innerHTML="**In-valid username/ username should contain only 8 characters**";
+}
+}
+
+
+<!--phoneno validation-->
+function phonenovalidation()
+{ 
+with(document.forms.myForm)
+var pn= myForm.phoneno.value;
+var letters = /^\d{10}$/;
+if(letters.test(pn))
+{
+
+document.getElementById("pn1").innerHTML="**valid phone no**";
+}
+else
+{
+document.getElementById("pn2").innerHTML="**In-valid phone no**";
+}
+}
+
+
+<!--password validation-->
+function pswvalidation()
+{ 
+with(document.forms.myForm)
+var pid= myForm.psw.value;
+var letters = /^(?=.*\d)(?=.*[a-zA-Z])[a-zA-Z0-9!@#$%&*]{6,20}$/;
+if(letters.test(pid))
+{
+document.getElementById("pw1").innerHTML="**valid password**";
+}
+else
+{
+document.getElementById("pw2").innerHTML="**In-valid password**";
+}
+}
+
+
+<!--re-enter password validation-->
+function rpswvalidation()
+{ 
+with(document.forms.myForm)
+var rpid= myForm.rpsw.value;
+var letters = /^(?=.*\d)(?=.*[a-zA-Z])[a-zA-Z0-9!@#$%&*]{6,20}$/;
+if(letters.test(rpid))
+{
+document.getElementById("rpw1").innerHTML="**valid password**";
+}
+else
+{
+document.getElementById("rpw2").innerHTML="**In-valid password**";
+}
+}
+
+
+</script>
+
+</head>
+<body>
+<form name="myForm" method="post" >
+  <div calss="container">
+  <center>
+  <font size="6" face="bold" color="black" align="center "><b>SIGN UP </b></font>
+ </center><br> <hr>
+<center>
+<font size="3" face="Arial" color="black" align="center-right"><b>Name:</b></font>
+    <input type="text" align="middle" placeholder="Enter Name" onblur="namevalidation()" name="name"  required />
+	<span id="valid" style="color: white;"></span>
+	<span id="invalid" style="color: red;"></span>
+<br><br>
+   <font size="3" face="Arial" color="black" align="center-right"><b>Email:</b></font>
+    <input type="text" placeholder="Enter Email" onblur="emailvalidation()" name="email" required>
+	<span id="e1" style="color: white;"></span>
+	<span id="e2" style="color: red;"></span>
+
+<br><br>
+<font size="3" face="Arial" color="black" align="center-right"><b>Username:</b></font>
+     <input type="text" align="middle" placeholder="Enter Username" onblur="idvalidation()"  name="username" required>
+	<span id="id1" style="color: white;"></span>
+	<span id="id2" style="color: red;"></span>
+<br><br>
+
+<font size="3" face="Arial" color="black" align="center-right"><b>Phone Number:</b></font>
+    <input type="text" align="middle" placeholder="Enter Phone Number" onblur="phonenovalidation()" name="phoneno" required>
+	<span id="pn1" style="color: white;"></span>
+	<span id="pn2" style="color: red;"></span>
+
+<br><br>
+<font size="3" face="Arial" color="black"><b>Password:</b></font>
+<input type="password" placeholder="Enter Password" onblur="pswvalidation()" name="psw" required>
+	<span id="pw1" style="color: white;"></span>
+	<span id="pw2" style="color: red;"></span>
+
+
+<br><br>
+   <font size="3" face="Arial" color="black"><b>Re-enter paasword:  </b></font>
+    <input type="password" placeholder="Re-enter password" onblur="rpswvalidation()" name="rpsw" required>
+    <span id="rpw1" style="color: white;"></span>
+	<span id="rpw2" style="color: red;"></span>
+
+	
+	<br><br>
+    <div class="btn">
+      <a><input type="button" class="signupbtn" value="SIGN UP" onclick="signup()"></a>
+   </center>
+<img src="bg.png" class="img" width="40%" height="60%" align="right">
+<img src="os.png" class="pic" width="40%" height="80%" align="left">
+
+    </div>
+  </div>
+</form>
+</body>
+</html>
+
+
+
+

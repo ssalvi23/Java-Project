@@ -1,0 +1,78 @@
+.aboutus{
+  position:relative;
+  background-color: #EEF8FE;
+  width: 1353px;
+  height: 341px;
+  margin-top: 546px;"
+  }
+  
+  .au1{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      font-family: josefine Sans;
+      margin-left: 15px;
+	  font-weight:bold;
+	  width:397px;
+  }
+
+ 
+  .con2{
+    position: relative;
+    margin-right: 152px;
+    padding: 210px;
+    width:250px;
+    height: 100px;
+    display:inline-block;
+    float: right;
+    border-bottom: 20px;
+    padding-top: 8px;
+    color: #EEF8FE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    left: 73px;
+    top: -140px;
+    bottom: -50px;
+margin-top: -50px;
+    
+}
+  .info{
+
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   margin-right: -107px;
+   margin-left: 15px;
+   text-align: left;
+  }
+
+  .icons{
+    width: 70px;
+    height: 50px;
+    
+  }
+
+  .icons_1{
+   padding: 10px;
+   width: 439px;
+  }
+
+  .rg{
+    width:200px;
+    height:50px;
+    margin-right: 110px;
+    background-color:brown;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #ddd;
+    font-size: 18px;
+
+  }
+
+  .rg :hover{
+    background-color: #848180;
+  }
+
+  #fb{
+    width: 100px
+  }

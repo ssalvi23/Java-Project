@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious | Payment</title>
+    <link rel="stylesheet" href="payment.css">
+
+</head>
+<body>
+   
+   
+     <form action="successfull.html">
+         <h2>Payment Details</h2>
+         <hr>
+        <center><p class="card-text">Accepted Cards</p></center>
+         <img src="vi.png" class="img-pos" alt="visa">
+         <img src="mc.png" alt="masterd">
+         <img src="UPI.png" alt="upi">
+		 
+		 <div class="row">
+		 <div class="card-num">
+         <p>Card Number:</p>
+         <input type="number" name="cardnumber" id="cardnumber" placeholder="1111-2222-3333-4444">
+		 </div>
+             <div class="no1">
+                <p>Expire Date<input type="date" name="Expire Date" id="Expire Date"></p>
+             </div>
+             <div class="no2">
+                <p>CVV</p>
+                <input type="password" name="cvv" id="cvv" maxlength="3" size="3">
+             </div>
+        </div>
+         <p>Card Owner Name:</p>
+         <input type="text" name="ownername" id="ownername">
+         <input type="submit" value="Confirm Payment"/>
+     </form>
+</body>
+</html>

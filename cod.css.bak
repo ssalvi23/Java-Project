@@ -1,0 +1,11 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+.codtitle{
+	text-align:center;
+	font-family:Josefine Sans;
+	font-size:25px;
+	font-weight:bold;
+}

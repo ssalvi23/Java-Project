@@ -1,0 +1,218 @@
+*{
+margin:0;
+padding:0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: #BDD6E6;	
+}
+.oldbooks{
+		  background-color: #848180;
+}
+
+
+html
+{
+	height: 1149px;
+}
+/*navbar*/
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 136px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  background-color: #848180;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover, .dropbtn:hover {
+  background-color: #848180;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*cards*/
+.card{
+	
+	padding-top: 71px;
+      width:188px;
+	float: left;
+     height: 355px;
+    padding: 5px;
+     position: relative;
+  background: #FFFEFE;
+   border-radius: 20px;
+   margin:27px;
+}
+
+
+.book-details
+{
+	padding-left: 28px;
+	
+}
+
+.card .img{
+  position: relative;
+  padding-right: 10px;
+  width:166px; 
+  height: 235px;
+  
+ }
+
+.title
+{
+	margin:94px;
+	font-size:30px;
+    width: 1127px;
+	height: 33px;
+	margin-top: 91px;
+	margin-left: 24px;
+	margin-bottom: 33px;
+}
+
+.addtocart{
+	background-color:black;
+	color:white;
+	width:100px;
+	height:55px;
+	text-decoration:none;
+	font-size:18px;
+	padding: 10px;
+}
+
+
+.price{
+	margin-left:31px;
+}
+
+/*about us*/
+.aboutus{
+  position:relative;
+  background-color: #EEF8FE;
+  width: 1353px;
+  height: 433px;
+  margin-top: 546px;"
+  }
+  
+  .au1{
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 15px;
+  }
+
+ 
+  .con2{
+    position: relative;
+    margin-right: 152px;
+    padding: 210px;
+    width:250px;
+    height: 100px;
+    display:inline-block;
+    float: right;
+    border-bottom: 20px;
+    padding-top: 8px;
+    color: #EEF8FE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    left: 73px;
+    top: -140px;
+    bottom: -50px;
+
+    
+}
+  .info{
+
+   font-size: 16px;
+   color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   margin-right: -107px;
+   margin-left: 15px;
+   text-align: left;
+  }
+
+  .icons{
+    width: 70px;
+    height: 50px;
+    
+  }
+
+  .icons_1{
+   padding: 10px;
+   width: 439px;
+  }
+
+  .rg{
+    width:200px;
+    height:50px;
+    margin-right: 110px;
+    background-color:brown;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #ddd;
+    font-size: 18px;
+
+  }
+
+  .rg :hover{
+    background-color: #848180;
+  }
+
+  #fb{
+    width: 100px
+  }

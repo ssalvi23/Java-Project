@@ -1,0 +1,33 @@
+import java.sql.*;
+class dbtest15 
+{
+public static void main(String args[])
+{
+Connection con;
+	try
+	{
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	System.out.println("Driver registered successfully");
+	}
+	catch(Exception e)
+	{
+	System.out.println(e.getMessage());
+	System.out.println("Error in driver registration...");
+	}
+	try
+	{
+con=DriverManager.getConnection("jdbc:mysql://localhost:3306/smjDB","root","root123");
+	Statement st=con.createStatement();
+	st.executeUpdate("insert into emp values(110,'swati',20,44500)");
+	System.out.println("Row inserted...");
+	con.close();
+	}
+	catch(SQLException e1)
+	{
+	System.out.println(e1.getMessage());
+	}
+
+}
+}
+dbtest15.java
+Displaying dbtest15.java.

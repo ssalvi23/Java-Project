@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="sellbooks.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+function functionAlert(msg, myYes) {
+            var confirmBox = $("#confirm");
+            confirmBox.find(".message").text(msg);
+            confirmBox.find(".yes").unbind().click(function() {
+               confirmBox.hide();
+            });
+            confirmBox.find(".yes").click(myYes);
+            confirmBox.show();
+         }
+		 
+			function validate()
+			{
+            with(document.forms.sellbook)
+            {
+                var name1 = sellbook.bookname.value;
+                re = /[^A-Za-z\s]/
+                if(re.test(name1))
+                {
+                    alert("only characters");
+                }
+            }
+} 	
+
+function namevalidation()
+{ 
+with(document.forms.sellboook)
+var uname= sellbook.bookname.value;
+var letters = /^[A-Za-z]+$/;
+if(letters.test(uname))
+{
+alert("valid name");
+}
+else
+{
+alert("invalid name");
+}
+}
+			
+</script>
+</head>
+<body>
+  <div class="fullbg">
+  
+<div>  
+<form name="sellbook" method="get"> 
+    <img src="logo.png" id="logoimag">
+  <div class="navbar">
+  <a href="#" ><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <div class="dropdown">
+    <button class="dropbtn">Categories 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">All</a>
+      <a href="#">Novels</a>
+      <a href="#">Magazines</a>
+      <a href="#">Old Books</a>
+    </div>
+    </div>     <a href="#"> <i class="fa fa-book"></i> Sell Books</a>
+    <a href="#"><i class="fa fa-shopping-cart"></i> My Cart</a>
+    <a href="#"><i class="fa fa-fw fa-user" id="log"></i> </a>
+  </div>
+
+<br>
+
+<div class="container">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname" id="name">Book Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="bname" name="bookname" placeholder="Enter Book Name.." onblur="namevalidation()">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Purchase Date:</label>
+      </div>
+      <div class="col-75">
+        <input type="date" id="lname" name="lastname" placeholder="Select date..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Category</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Old Books</option>
+          <option value="canada">Magazines</option>
+          <option value="usa">Newspaper</option>
+        </select>
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Author Name:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Enter Author Name..">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Book Language</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">English</option>
+          <option value="canada">Marathi</option>
+          <option value="usa">Hindi</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Price:</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Enter price..">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Description</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Upload Image:</label>
+      </div>
+      <div class="col-75">
+        <input type="file" id="lname" name="lastname" placeholder="Select file..">
+      </div>
+    </form>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit" onclick="functionAlert();"/>
+    </div>      
+  </div> 
+
+ <div id="confirm">
+      <div class="title ">
+      <h1>THANK YOU!!!</h1>
+      </div>
+         <div class="mssg">Your message has been sent successfully...</div>
+         <button class="yes">OK</button>
+      </div>
+	  </div>
+</body>
+</html>

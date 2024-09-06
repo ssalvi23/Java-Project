@@ -1,0 +1,272 @@
+css
+
+body{
+    background-color: #BDD6E6;
+}
+
+*{
+margin : 0;
+padding : 0;
+}
+#logoimag{
+  width: 120px; 
+  height: 169px;
+  width: 285px;
+  position: absolute;
+  right: 1106px;
+  top: -47;
+  bottom: 444px;
+left: -70;
+top: -40;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 136px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #848180;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+form{
+      position: absolute;
+    width: 320px;
+    height: 450px;
+    border: 1px solid gray;
+    /*left: 40%;
+    top: 15%;*/
+ 
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+    width: 468px;
+    height: 478px;
+    right: 503.525;
+    right: 487.525;   
+    left: 424px;
+    top: 88px;
+    width: 535px;
+    height: 493px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    width: 50px;
+    height: 30px;
+    display: inline-flex;
+}
+
+p{
+    font-weight: bold;
+	font-size:15px;
+	margin:20px
+}
+
+input[type='date'],
+input[type='password']
+input[type='cvv']{
+    height: 32px;
+    font: 16px;
+	margin: 9px;
+}
+
+input[type='number'],
+input[type='text']{
+    width: 95%;
+    height: 25px;
+}
+
+input[type='submit']{
+    width: 100%;
+    margin:15px 0;
+    height: 40px;
+    background-color: #55ae4d;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+input[type='submit']:hover{
+    cursor: pointer;
+    background-color: #6bca8b;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	
+}
+
+.row .no1{
+    flex-basis: 30%;
+}
+
+
+body {
+background-color: #BDD6E6;
+height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+    margin:0;
+   padding:0;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #070706;
+    height: 50px;
+    margin-left: 161px;
+    margin-top: ‒10;
+    margin-top: 15px;
+    border-left-width: 20px;
+    margin-left: 208px;
+
+
+}
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: #f1f1f1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#696969;
+}
+
+
+ .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  padding: 50px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 400px;
+  display: block;
+  margin-bottom: 20px;
+  float: left;
+  width: 400px;
+  height: 350px;
+  margin-left: 5px;
+  margin-top: 30px;
+  padding: 10px 20px;
+
+    padding-right: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 250px;
+    height: 350px;
+
+}
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  .img-pos{
+	  margin-left: 180px;
+  }
+  
+  #Expire Date
+  {
+	  inline:block;
+  }
+  .row
+  {
+	  inline:block;
+
+  }
+  
+  #cardnumber ,#Expire Date, #cvv, #ownername
+  {
+	  padding:14px;
+	  margin: 20px;
+  }
+  #Expire Date{
+	  margin-left: 20px;
+  }
+  #cardnumber{
+	
+  }

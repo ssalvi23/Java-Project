@@ -1,0 +1,336 @@
+* {
+    margin:0;
+    padding:0;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+/*.navbar {
+  width: 88%;
+  background-color:black;
+  overflow: auto;
+    margin-left: 164px;
+
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color:#848180;
+}
+
+.active {
+  background-color:black;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}*/
+
+#logoimag{
+  width: 120px; 
+  height: 169px;
+  width: 285px;
+  position: absolute;
+  right: 1106px;
+  top: -47;
+  bottom: 444px;
+left: -70;
+top: -40;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 136px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  background-color: #848180;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover, .dropbtn:hover {
+  background-color: #848180;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.container {
+  background-color: #BDD6E6;
+   backdrop-filter: blur(8px); 
+   height: 1211px;
+   width: 1349px;
+
+  
+ }
+
+
+
+ 
+ .card {
+   position: relative;
+   width: 320px;
+   height: 480px;
+   background: #FFFEFE;
+   border-radius: 20px;
+   top: 70px;
+   left: 10px;
+   height: 340px;
+   width:190;
+  
+ }
+ 
+ /*.card::before {
+   content: "";
+   position: absolute;
+   top: -50%;
+   width: 100%;
+   height: 100%;
+   background: #ffce00;
+   transform: skewY(345deg);
+   transition: 0.5s;
+ }
+ 
+ .card:hover::before {
+   top: -70%;
+   transform: skewY(390deg);
+ }
+ 
+ .card::after {
+   content: "CORSAIR";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   font-weight: 600;
+   font-size: 6em;
+   color: rgba(0, 0, 0, 0.1);
+ }*/
+ 
+ 
+ /*
+ .card .imgBox img {
+     max-width: 100%;
+     
+     transition: .5s;
+ }
+ 
+ .card:hover .imgBox img {
+     max-width: 50%;
+       
+ }
+ */
+ 
+
+ .card .img{
+   position: relative;
+  padding-right: 10px;
+  width:166px; 
+  height: 235px;
+  border-top-width: 10px;
+  top:5px;
+
+
+ }
+
+
+.card .buy{
+  background-color: black;
+   color: white; 
+   font-family: Arial;
+    padding: 10px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.aboutus{
+  position: relative;
+  background-color: #EEF8FE;
+  height: 364px;
+  bottom: 0px;
+
+  
+  top: 0px;
+
+  width: 1349px;
+
+
+  
+  }
+  
+  .au1{
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 15px;
+
+  
+  }
+
+ 
+ 
+  
+
+  .con2{
+    position: relative;
+    margin-right: 1px;
+    padding: 210px;
+    width:250px;
+    height: 100px;
+    display:inline-block;
+    float: right;
+    border-bottom: 20px;
+    padding-top: 8px;
+    color: #EEF8FE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+
+    left: 73px;
+    top: -140px;
+    bottom: -50px;
+
+    
+}
+  .info{
+
+   font-size: 16px;
+   color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   margin-right: -107px;
+   margin-left: 15px;
+    text-align: left;
+  }
+
+  .icons{
+    width: 70px;
+    height: 50px;
+    
+  }
+
+  .icons_1{
+   padding: 10px;
+   width: 439px;
+  }
+
+  .rg{
+    width:200px;
+    height:50px;
+    margin-right: 110px;
+    background-color:brown;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #ddd;
+    font-size: 18px;
+
+  }
+
+  .rg :hover{
+    background-color: #848180;
+  }
+
+  #fb{
+    width: 100px
+  }
+
+  .more{
+    position:relative;
+    left: 382px;
+    top: -920;
+    background-color: #f7ca01;
+    color:black; 
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+  
+
+  .more:hover{
+    background-color: hsl(49, 100%, 65%);
+  }
+  .addtocart
+{
+	background-color: black;
+	color: white; 
+	font-family: Arial; 
+	padding: 10px; 
+	text-align: center;
+	text-decoration: none;
+    display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer; 
+}

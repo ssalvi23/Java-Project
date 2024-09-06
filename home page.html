@@ -1,0 +1,144 @@
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css" >
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript">
+    var image = document.getElementById("aaa");
+    var img_array=["book21.png","book22.png","book23.png"];
+    var index=0;
+    function slide()
+    {
+
+    document["aaa"].src = img_array[index];
+    index++;
+    if(index>=img_array.length)
+    {
+    index=0;
+    }
+    }
+    setInterval("slide()",2000);
+    </script>  
+    </head>
+    <body>
+<form name="home">
+    <img src="logo.png" id="logoimag">
+  <div class="navbar">
+  <a href="home.html" ><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="feedback.jsp"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <div class="dropdown">
+    <a href="category.html"><button class="dropbtn">Categories 
+      <i class="fa fa-caret-down"></i>
+    </button></a>
+    <div class="dropdown-content">
+      <a href="#">All</a>
+      <a href="#">Novels</a>
+      <a href="#">Magazines</a>
+      <a href="#">Old Books</a>
+    </div>
+    </div>     
+	<a href="sellbooks.jsp"> <i class="fa fa-book"></i> Sell Books</a>
+    <a href="frame.html"><i class="fa fa-shopping-cart"></i> My Cart</a>
+    <a href="#"><i class="fa fa-fw fa-user" id="log"></i> </a>
+  </div>
+<div id="Category">
+    <div id="bookimg"><br>
+        <img id="aaa" src="book21.png" width="890" height="350" name="image" />
+
+</div>
+</div><br><br>
+<h1><div class="heading"> Newly Arrived Latest Books.... </div></h1><br>
+<hr style="width:99%; text-align:left; margin-left : 10px; margin-right: 30px;" >
+
+
+
+
+<div class="card">
+    <img src="book1.jfif" width="200px" height="200px" style="padding-right: 10px;width: 200px;height: 231px;border-top-width: 10px;">
+    <p> A Million To One </p>
+    <p class="price" style="color: grey; font-size: 15px;">RS.178</p>
+	<a href="frame.html"><button onclick="add()" class="addtocart"> Add To Cart</button></a>
+    
+    </div>
+
+    <div class="card">
+    <img src="book2.jfif" width="200px" height="200px" style="padding-right: 10px;width: 200px;height: 231px;border-top-width: 10px;">
+    <p> Very Nice</p>
+    <p class="price" style="color: grey; font-size: 15px;">RS.200</p>
+    <button onclick="add()" style="background-color: black; color: white; font-family: Arial; padding: 10px; text-align: center;text-decoration: none;
+    display: inline-block;font-size: 15px;margin: 4px 2px;cursor: pointer; "> Add To Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="book3.jfif" width="200px" height="200px" style="padding-right: 10px;width: 200px;height: 231px;border-top-width: 10px;">
+        <p>The Illness Lesson</p>
+        <p class="price" style="color: grey; font-size: 15px;">RS.350</p>
+        <button onclick="add()" style="background-color: black; color: white; font-family: Arial; padding: 10px; text-align: center;text-decoration: none;
+        display: inline-block;font-size: 15px;margin: 4px 2px;cursor: pointer; "> Add To Cart<//button>
+        </div>
+
+        <div class="card">
+            <img src="book4.jpg" width="200px" height="200px" style="padding-right: 10px;width: 200px;height: 231px;border-top-width: 10px;">
+            <p>Arts&Style</p>
+            <p class="price" style="color: grey; font-size: 15px;">RS.400</p>
+            <button onclick="add()" style="background-color: black; color: white; font-family: Arial; padding: 10px; text-align: center;text-decoration: none;
+            display: inline-block;font-size: 15px;margin: 4px 2px;cursor: pointer; "> Add To Cart<//button>
+            </div>
+
+                <div class="aboutus">
+                    <p class="au1"><h2>About Us<h2></p><br>
+    
+                <div class="con1"> 
+                    <p class="au1"> Hello Customers.... </p><br>
+                    <p class="info"> we all provide all types of Room designs , Kitchen , BedRoom , Hotel , Shop Designs and decore  </p><br>
+                    <p class="info">If You Are Not Registered Yet, Register Yourself </p>
+                    <a href="Register.html"><input type="button" class="rg" value="Register"></a>
+                    </div>
+    
+                        <div class="con1"> 
+                            <p class="au1"> Contact Us </p><br>
+                            <p class="info"> Email ID : bookshopify@gmail.com</p><br>
+                            <p class="info"> Phone NO. 9594997848</p><br>
+                            <p class="info"> Address : iah jfoivg kjr fofy0h0d fdijohg jfdhod dgojihdg dfhg</p><br>
+                            <div class="icons_1">    
+                            <img src="insta.png" class="icons">
+                                <img src="fb.png" class="icons" id="fb">
+                                <img src="twitter.png" class="icons">
+                                </div>
+                        </div>
+						</div>
+
+                   <div class="wrapper">
+			<img src="cookie.jpg" alt="">
+    <div class="content">
+      <header>Cookies Consent</header>
+      <p>This website use cookies to ensure you get the best experience on our website.</p>
+      <div class="buttons">
+        <button class="item">I understand</button>
+        <a href="#" class="item">Learn more</a>
+      </div>
+    </div>
+  </div>    
+    
+	
+                
+</div>
+<script>
+const cookieBox = document.querySelector(".wrapper"),
+    acceptBtn = cookieBox.querySelector("button");
+    acceptBtn.onclick = ()=>{
+      //setting cookie for 1 month, after one month it'll be expired automatically
+      document.cookie = "CookieBy=BookShopify; max-age="+60*60*24*30;
+      if(document.cookie){ //if cookie is set
+        cookieBox.classList.add("hide"); //hide cookie box
+      }else{ //if cookie not set then alert an error
+        alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+      }
+    }
+    let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+    //if cookie is set then hide the cookie box else show it
+    checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+</script>
+</body>
+</html>
+

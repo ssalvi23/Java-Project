@@ -1,0 +1,442 @@
+*{
+margin:0;
+padding:0;
+background-size: cover;
+background-position: center;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+  background-color: #BDD6E6;	
+
+}
+
+.fullbg {
+	  background-color: #BDD6E6;	
+	   height: 682px;
+ }
+
+/*navbar*/
+#logoimag{
+  
+  position: relative;
+  right: 1106px;
+left: -500;
+top: -38;
+width: 306px;
+height: 180px;
+top: -25;
+left: -78;
+bottom: 471px;
+}
+
+.oldbooks{
+	 background-color: #848180;
+	
+}
+
+.title1{
+	 font-family:Josefine Sans;
+	 font-size:30px;
+	 font-weight: bold;
+	  text-shadow:2px 2px rgb(211 146 92);
+	  margin-left:24px;
+	  width: 1237px;
+	  margin-top:-19px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+margin-left: 183px;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  background-color: #848180;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover, .dropbtn:hover {
+  background-color: #848180;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*cards*/
+.card{
+	
+	 padding-top: 71px;
+     width:190;
+	 float: left;
+     height: 340px;
+     padding: 5px;
+     position: relative;
+     border-radius: 20px;
+     margin:27px;
+}
+
+
+.book-details
+{
+	padding-left: 28px;
+	
+}
+
+.img{
+  position: relative;
+  width:150px; 
+  height: 150px;
+  
+  height: 193px;
+  width: 143px;
+  padding-left: 10px;
+  padding-top: 10px;
+ }
+
+.price{
+	
+padding-left:32px;
+}
+.title
+{
+	margin:94px;
+	font-size:30px;
+    width: 1127px;
+	height: 33px;
+	margin-top: 91px;
+	margin-left: 24px;
+	margin-bottom: 33px;
+}
+
+.add{
+text-decoration:none;
+}
+
+
+
+/*Table*/
+
+th {
+  text-align: center;
+    background: #FFFEFE;
+
+}
+
+table, th, tr {
+  border: #BDD6E6;
+}
+
+table {
+	position : relative;
+  /*border-collapse: collapse;*/
+  width: 50%;
+  margin-top:74px;
+}
+
+th {
+  height: 70px;
+}
+
+p{
+	font-size:18px;
+}
+
+.btitle
+{
+	margin-left: -30px;
+	text-align: center;
+}
+
+/*cards*/
+.card{
+	
+	padding-top: 71px;
+      width:188px;
+	float: left;
+     height: 365px;
+    padding: 5px;
+     position: relative;
+  background: #FFFEFE;
+   border-radius: 20px;
+   margin:27px;
+}
+
+.book-details
+{
+	padding-left: 28px;
+	
+}
+
+.card .img{
+  position: relative;
+  padding-right: 10px;
+  width:166px; 
+  height: 235px;
+  
+ }
+ 
+ .addtocart{
+	background-color:black;
+	color:white;
+	width:100px;
+	height:55px;
+	text-decoration:none;
+	font-size:18px;
+	padding: 10px;
+}
+ 
+/*about us
+.aboutus{
+  position: relative;
+  background-color: #EEF8FE;
+  bottom: 0px;
+  top: -297px;
+  width: 1353px;
+  height: 332px;
+  margin-top: 546px;"
+  }
+  
+  .au1{
+      font-size: 20px;
+      color: rgb(0, 0, 0);
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 15px;
+  }
+
+ 
+  .con2{
+    position: relative;
+    margin-right: 1px;
+    padding: 210px;
+    width:250px;
+    height: 100px;
+    display:inline-block;
+    float: right;
+    border-bottom: 20px;
+    padding-top: 8px;
+    color: #EEF8FE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    left: 1px;
+    top: -140px;
+    bottom: -50px;
+
+    
+}
+  .info{
+
+   font-size: 16px;
+   color: rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   margin-right: -107px;
+   margin-left: 15px;
+   text-align: left;
+  }
+
+  .icons{
+    width: 70px;
+    height: 50px;
+    
+  }
+
+  .icons_1{
+   padding: 10px;
+   width: 439px;
+  }
+
+  .rg{
+    width:200px;
+    height:50px;
+    margin-right: 110px;
+    background-color:brown;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #ddd;
+    font-size: 18px;
+
+  }
+
+  .rg :hover{
+    background-color: #848180;
+  }
+
+  #fb{
+    width: 100px
+  }*/
+  
+  .aboutus{
+  position:relative;
+  background-color: #EEF8FE;
+  width: 1368px;
+  height: 341px;
+  margin-top: 360px;"
+  }
+  
+  .au1{
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      font-family: josefine Sans;
+      margin-left: 15px;
+	  font-weight:bold;
+	  width:397px;
+  }
+
+ 
+  .con2{
+    position: relative;
+    margin-right: 152px;
+    padding: 210px;
+    width:250px;
+    height: 100px;
+    display:inline-block;
+    float: right;
+    border-bottom: 20px;
+    padding-top: 8px;
+    color: #EEF8FE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    left: 73px;
+    top: -140px;
+    bottom: -50px;
+margin-top: -50px;
+    
+}
+  .info{
+
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   width: 400px;
+   margin-right: -107px;
+   margin-left: 15px;
+   text-align: left;
+  }
+
+  .icons{
+    width: 70px;
+    height: 50px;
+    
+  }
+
+  .icons_1{
+   padding: 10px;
+   width: 439px;
+  }
+
+  .rg{
+    width:200px;
+    height:50px;
+    margin-right: 110px;
+    background-color:brown;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: #ddd;
+    font-size: 18px;
+
+  }
+
+  .rg :hover{
+    background-color: #848180;
+  }
+
+  #fb{
+    width: 100px
+  }
+
+
+
+  
+  .dropdownbtn1 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdownbtn1 .dropbtn1 {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+ .dropdownbtn1:hover .dropbtn1 {
+  background-color: #848180;
+}
+
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content1 a:hover {
+  background-color: #ddd;
+}
+
+.dropdownbtn1:hover .dropdown-content1 {
+  display: block;

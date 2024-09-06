@@ -1,0 +1,19 @@
+<html>
+<body>
+<script type="text/javascript">
+function idGenerate()
+{
+if(document.getElementById('btn1').clicked==true)
+var i=0;
+i=i+1;
+alert("Id for first click "+ i)
+}
+
+<input type="button" value="click me" id="btn1" onclick=>
+
+</script>
+<form>
+<input type="button" value="click me" id="btn1" onclick=>
+</form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>Login</title>
+	
+    <link rel="stylesheet" type="text/css" href="loginpage.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+</head>
+<body>
+    
+<div class="main">   
+<form name="loginform">
+    <img src="logo.png" id="logoimag">
+  <div class="navbar">
+  <a href="#" ><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+    <a href="#"> <i class="fa-solid-fa-bars"></i>Categories</a>
+
+  <a href="#"> <i class="fa fa-book"></i> Sell Books</a>
+    <a href="#"><i class="fa fa-shopping-cart"></i> My Cart</a>
+  <a href="#"><i class="fa fa-fw fa-user" id="log"></i> </a>
+</div>
+
+  <br>
+<div class="login"> 
+    <p id="title1"> Login Interface </p>
+
+<input type="text" name="username" placeholder="Enter Userid" id="uid" ><br>
+<span id="pwd1" style="color: white;"></span>
+<span id="pwd2" style="color: red;"></span>
+
+
+
+<br><input type="password" name="password" placeholder="Password" id="pwd" onblur="pwdvalidation()"><br><br>
+<input type="checkbox" onclick="myFunction()">
+<font style="color:white;size:3px;"> Show Password</font>
+<br><br>
+
+<span id="pwd1" style="color: white;"></span>
+<span id="pwd2" style="color: red;"></span>
+
+<center>
+<font style="color:white;size:3px;"> Login As :</font>
+  <input type="radio" name="r1" value="User">
+  <label for="html" style="color:white;size:3px;">USER</label>
+    <input type="radio" name="r1" value="Seller">
+  <label for="html" style="color:white;size:3px;">SELLER</label>
+  </center>
+
+  
+
+
+<br><input type="submit" name="loginbtn" id="btn" value="LOGIN" onclick="page()"><br><br>
+<div class="title1"><p> Don't Have Account? <a href="Register.html" >Register Now </a> </p></div>
+</div>
+</div>
+</form>
+
+<script type="text/javascript">
+function page()
+{
+
+if(document.forms.loginform.r1.value="user")
+let "home page.html";
+
+}
+
+</script>
+
+</body>
+</html>

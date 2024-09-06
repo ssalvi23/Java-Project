@@ -1,0 +1,66 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@page import="java.sql.*" %> 
+<%@page import="java.lang.*" %> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="loginpage.css">
+	 <link rel="stylesheet" type="text/css" href="navbar.css">
+	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <script>
+	 function user() {
+        var user = document.getElementById("chkYes");
+        var seller = document.getElementById("dvPassport");
+        dvPassport.style.display = chkYes.checked ? "block" : "none";
+    }
+	
+	
+	</script>
+</head>
+<body>  
+<div class="container">   
+    <div id="error"></div>
+    <form name="login" method="GET" action="temp.jsp" id="form" onsubmit="return Validateform()">
+     <img src="logo.png" id="logoimag" style="bottom: 594px;right: 1216px;">
+      <div class="navbar">
+      <a href="#" ><i class="fa fa-fw fa-home"></i> Home</a> 
+      <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+     
+      <div class="dropdown">
+        <button class="dropbtn">Categories 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">All</a>
+          <a href="#">Novels</a>
+          <a href="#">Magazines</a>
+          <a href="#">Old Books</a>
+        </div>
+        </div>            
+				        <a href="#"><i class="fa fa-shopping-bag"></i> Orders</a>
+
+            <a href="#"> <i class="fa fa-book"></i> Sell Books</a>
+        <a href="#" class="cart"><i class="fa fa-shopping-cart"></i> My Cart</a>
+
+        <a href="#"><i class="fa fa-fw fa-user" id="log"></i> </a>
+      </div><br><br>
+	
+	
+	<div class="login"> 
+		<p id="title1"> Login Interface </p>
+		<input type="text" name="uid" placeholder="Enter Userid" id="uid" class="formerror" required><b><span class="formerror"></span></b><br><br>
+		<input type="password" name="password" placeholder="Password" id="pwd" required><br><br>
+		<input type="radio" name="selectop">User
+		<input type="radio" name="selectop">Seller<br>
+		<input type="submit" name="loginbtn" id="btn" value="LOGIN"><br><br>
+		<div class="title1"><p> Don't Have Account ? <a href="" >Register Now </a> </p></div>
+	</div>
+</div>
+
+</form>
+</body>
+</html>

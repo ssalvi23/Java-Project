@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.register
+{
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(255,255,255);
+    border-radius: 5px;
+    padding: 44px;
+    margin: 20px;
+    width:495px;
+    height: 95%;
+    font-size: 12px;
+    margin-left: 33%;
+	
+}
+
+#title1
+{
+	font-family:josefin Sans;
+	font-weight:bold;
+    font-size: 37px;
+    text-align:center;
+    margin: 9px;
+    color: rgb(0,0,0);
+text-shadow:2px 2px rgb(244,164,96);
+}
+
+.title2
+{
+     color: rgb(0,0,0);
+      margin-left: 65px;
+      font-size: 18px;
+	  font-family: josefin Sans;
+}
+
+#logoimag{
+	width: 155px;
+height: 99px;
+margin-left:"3px";
+}
+
+.navbar {
+	position: relative;
+  overflow: hidden;
+  background-color: #333;
+  margin-left: 136px;
+  bottom: 98px;
+  left: 53px;
+  width: 1161px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #848180;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+      .full{
+		 
+          background-color: #BDD6E6;
+      }
+#uname, #email, #pass, #conpass, #phnnum
+{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px;
+    margin-left: 50px;
+	box-shadow:  0.3em 0.3em rgb(243, 243, 243 );
+}
+
+#regbtn{
+    font-size: 28px;
+    padding: 6.8px;
+    margin-left: 47px;
+    font-size: 23px;
+    border-radius: 12px;
+	background-color:rgb(253, 194, 57);
+	width:328px;
+	font-family:Josefin Sans;
+	font-weight:bolder;
+}
+
+
+
+#uname{
+    background-image: url(login.png);
+    background-size: 45px;
+    background-position: 102%;
+    background-repeat: no-repeat;
+}
+#email{
+    background-image: url(email.png);
+    background-size: 30px;
+    background-position: 99%;
+    background-repeat: no-repeat;
+}
+#phnnum{
+    background-image: url(phone.png);
+    background-size: 22px;
+    background-position: 98%;
+    background-repeat: no-repeat;
+}
+#pass{
+    background-image: url(password.png);
+    background-size: 40px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+#conpass{
+    background-image: url(conpass.png);
+    background-size: 15px;
+    background-position: 97%;
+    background-repeat: no-repeat;
+}
+
+.fullbg
+{
+    background-color: #BDD6E6;
+	height: 587.594px;
+	 position:relative;
+	 bottom: 87px;
+}
+
+#link{
+    color:rgb(25,25,112);
+	text-decoration:none;
+	color:rgb(253, 194, 57);
+}
+
+.container{
+	background-color: #BDD6E6;
+    backdrop-filter: blur(8px); 
+    height: 100%;
+    width: 100%;
+	 position:relative;
+}

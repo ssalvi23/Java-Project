@@ -1,0 +1,9 @@
+
+<html>
+<%
+<frameset rows="30%,70%" frameborder="Yes" bordercolor="#BDD6E6">
+<frame src="navbar.jsp" name="f1">
+<frame  name="f2" style="background-color: #BDD6E6;"> 
+</frameset>
+%>
+</html>

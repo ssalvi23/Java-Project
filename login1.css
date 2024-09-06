@@ -1,0 +1,97 @@
+* {
+    margin:0;
+    padding:0;
+    
+    background-size: cover;
+    background-position: center;
+    
+}
+.login{
+    /*-left: 500px;
+    margin: 20px;
+    width:400px;
+    font-size: 20px;
+    align-content: center;
+    padding-top: 37px;*/
+
+    padding: 30px;
+    box-sizing: border-box;
+    background-color:rgb(2, 2, 2 , 0.6);
+    box-shadow: 0 10px 15px -10px rgb(88, 83, 83);
+    border-radius: 5px;
+    padding: 106px;
+    margin: 20px;
+    height: 95%;
+    width:560px;
+    font-size: 20px;
+    margin-left: 34%;
+}
+#uid ,#pwd, #btn ,#title{
+   font-size: 25px;
+}
+
+/*#btn {  
+      margin-left: 111px;
+      font-size: 28px;
+     
+}*/
+#title1{
+margin: 30px;
+font-size: 45px;
+color: rgb(255, 255, 255);;
+text-shadow:2px 2px rgb(255, 217, 0);
+
+}
+
+#loginimg{
+    width: 100px;
+    height: 100px;
+}
+
+#logo{
+width: 100px;
+height: 200px;
+
+}
+
+#uid{
+    background-image: url(login.png);
+	background-size: 60px;
+    background-position: 100%;
+	background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#pwd{
+    background-image: url(password.png);
+	background-size: 40px;
+    background-position: 97%;
+	background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#btn{
+    border-radius: 15px;
+    padding: 6.8px;
+    margin-left: 111px;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #fcfcfc;
+}
+
+#uid,#pwd{
+    padding: 10px;
+}
+
+.container {
+   background-image: url("loginbg1.jpg");
+    backdrop-filter: blur(8px); 
+    height: 100%;
+    width: 100%;
+  }
+  .title1{
+      color: aliceblue;
+  }
+
+  a{
+      color: rgb(233, 204, 39);
+  }
